@@ -1,0 +1,23 @@
+.breadcrumb {
+  margin: 1rem 0;
+  font-size: 1rem;
+  color: #333;
+
+  &__list {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+  }
+
+  &__item {
+    &:not(:last-child) {
+      margin-right: 0.5rem;
+    }
+  }
+
+  &__separator {
+    margin-left: 0.5rem;
+    color: #999;
+  }
+}

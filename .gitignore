@@ -1,0 +1,36 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+meli-backend/node_modules
+meli-frontend/node_modules
+/.pnp
+.pnp.js
+.yarn/install-state.gz
+
+# testing
+meli-backend/coverage
+meli-frontend/coverage
+
+# next.js (frontend)
+meli-frontend/.next
+meli-frontend/out
+
+# production
+meli-backend/build
+meli-frontend/build
+
+# misc
+.DS_Store
+*.pem
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# vercel (frontend)
+meli-frontend/.vercel
+
+# typescript
+meli-frontend/*.tsbuildinfo
+meli-frontend/next-env.d.ts
